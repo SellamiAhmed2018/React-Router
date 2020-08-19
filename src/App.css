@@ -1,0 +1,26 @@
+.bigList {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	min-height: 10vh;
+	background-color: rgb(73,79,82);
+	list-style-type: none;
+	color: white;
+	min-width: 50%;
+	margin-top: 0;
+}
+
+li {
+	text-decoration: none;
+}
+
+li:hover {
+	text-decoration: underline;
+}
+
+.subList {
+	list-style-type: none;
+	background-color: rgb(40,41,35);
+	max-width: 28%;
+
+}
